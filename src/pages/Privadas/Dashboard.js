@@ -5,6 +5,7 @@ import { Perfil } from "./Perfil";
 import { Grupos } from "./Grupos"
 import { Publicadores } from "./Publicadores"
 import { SinglePub } from "./SinglePub";
+import { SingleGrupo } from "./SingleGrupo";
 
 export const Dashboard = () => {
   return (
@@ -17,9 +18,10 @@ export const Dashboard = () => {
                   <Route exact path='/app/perfil' component={ Perfil }/ >
                   <Route exact path="/app/grupos" component={ Grupos }/ >
                   <Route exact path="/app/publicadores" component={ Publicadores }/ >
-                  <Route exact path="/app/:pubId" component={ SinglePub }/ >
+                  <Route exact path="/app/publicadores/:pubId" component={ SinglePub }/ >
+                  <Route exact path="/app/grupos/:pubId" component={ SingleGrupo }/ >
   
-                <Redirect to="app/perfil" />
+                <Redirect to="/app/grupos" />
             </Switch>
          </div>
     </>

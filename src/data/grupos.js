@@ -7,8 +7,8 @@ export const grupos = [
     },
     {
         Grupo: 2,
-        Conductor: "John Doe",
-        Auxiliar: "Pablo fernandez",
+        Conductor: "Jorge Achar",
+        Auxiliar: "Joshua Achar",
         Integrantes: 10
     },
     {
@@ -18,21 +18,21 @@ export const grupos = [
         Integrantes: 11
     },
     {
-        Grupo: 3,
-        Conductor: "Bruno Diaz",
-        Auxiliar: "Pablo tapia",
+        Grupo: 4,
+        Conductor: "John Rodriguez",
+        Auxiliar: "Jose Rodriguez",
         Integrantes: 11
     },
     {
-        Grupo: 3,
-        Conductor: "Bruno Diaz",
-        Auxiliar: "Pablo tapia",
+        Grupo: 5,
+        Conductor: "Rafel Guacuto",
+        Auxiliar: "Jesus velasquez",
         Integrantes: 11
     },
     {
-        Grupo: 3,
-        Conductor: "Bruno Diaz",
-        Auxiliar: "Pablo tapia",
+        Grupo: 6,
+        Conductor: "Miguel Mora",
+        Auxiliar: "Luis Orono",
         Integrantes: 11
     },
 ]

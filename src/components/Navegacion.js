@@ -45,18 +45,19 @@ export const Navegacion = (  ) => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link 
-              className="nav-link" 
-              to="/app/perfil" >
-                Perfil
-              </Link>
-            </li>
+          
             <li className="nav-item">
               <Link 
               className="nav-link" 
               to="/app/grupos" >
                 Grupos
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link 
+              className="nav-link" 
+              to="/app/perfil" >
+                Perfil
               </Link>
             </li>
             <li className="nav-item">

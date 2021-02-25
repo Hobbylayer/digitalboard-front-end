@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Una guia rapida por la aplicación
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto tiene como vertebra react js y otra serie de tecnologias que no tenemos tiempo de contar ya que para eso está el package.jso
 
-## Available Scripts
+## Puedes correr los siguientes scripts
 
 In the project directory, you can run:
 
