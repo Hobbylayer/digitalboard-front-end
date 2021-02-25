@@ -1,0 +1,15 @@
+import React from 'react'
+
+export const CardGrupos = ({ numero, superintendente, auxiliar } ) => {
+    return (
+      
+        <div className="card" >
+            <div className="card-body">
+                <h3 className="text-center" >{ numero }</h3>
+                <p> <strong>Superintendente</strong> {superintendente}</p>
+                <p> <strong>Auxiliar</strong> { auxiliar }</p>
+                <p> <strong>Numero de integrantes</strong> 12</p>
+            </div>
+        </div>
+    )
+}
