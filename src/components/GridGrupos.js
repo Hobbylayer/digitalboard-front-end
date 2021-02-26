@@ -6,6 +6,7 @@ export const GridGrupos = ({ data }) => {
     const grupos = data 
 
     return (
+       
         <div className="container" >
         <div className="row">
             
