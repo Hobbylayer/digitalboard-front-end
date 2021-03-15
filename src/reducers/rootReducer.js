@@ -1,10 +1,12 @@
 import { combineReducers } from "redux";
-import { PubReducer } from "./PubReducer";
+import { pubReducer } from "./pubReducer";
+import { authReducer } from "./authReducers";
 
 
 const rootReducer = combineReducers( {
-    "Publicadores": PubReducer
-} )
+    "Publicadores": pubReducer,
+    "Auth" : authReducer
+});
 
 export {
     rootReducer

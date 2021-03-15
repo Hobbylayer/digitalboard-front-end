@@ -1,12 +1,12 @@
 
-initialState = {
+const initialState = {
     Grupos: [
         {}
     ]
 }
 
 
-export const PubReducer = ( state = initialState , action ) => {
+export const pubReducer = ( state = initialState , action ) => {
 
             switch ( action.type ) {
 
@@ -15,8 +15,9 @@ export const PubReducer = ( state = initialState , action ) => {
                         ...state,
                     }
 
-
-            }
+                default:
+                 return state
+             }
 
 
 }

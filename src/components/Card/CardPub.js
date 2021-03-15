@@ -1,13 +1,13 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+
 
 export const CardPub = ( { 
     nombre,
     horas,
     estudios, } ) => {
     
- 
-
     return (
         <>
             <div className="col-4">
@@ -64,4 +64,10 @@ export const CardPub = ( {
             </div>
         </>
     )
+}
+
+CardPub.propTypes = {
+    nombre: PropTypes.string.isRequired ,
+    horas: PropTypes.string.isRequired,
+    estudios: PropTypes.string.isRequired
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Redirect, Route, Switch } from 'react-router-dom'
-import { NavegacionPublica } from '../../components/NavegacionPublica'
+import { NavegacionPublica } from '../../components/NavBar/NavegacionPublica'
 import Contacto from './Contacto'
 import { Login } from './Login'
 import { Nosotros } from '../Privadas/Nosotros'

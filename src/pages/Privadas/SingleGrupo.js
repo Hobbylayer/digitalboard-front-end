@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import { CardPub } from '../../components/CardPub'
+import { CardPub } from '../../components/Card/CardPub';
 import { publicadores } from "../../data/publicadores";
 
 

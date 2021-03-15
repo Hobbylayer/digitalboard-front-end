@@ -9,10 +9,7 @@ export const Grupos = () => {
     return (
         <>
             <GridGrupos 
-            
             data={ grupos } />  
-
-            
         </>
     )   
 }
